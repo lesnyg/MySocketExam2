@@ -16,12 +16,14 @@
         android:id="@+id/btn_call"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:onClick="send_text"
         android:text="호출" />
 
     <TextView
         android:id="@+id/tv_recevied"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textSize="24sp"
         />
 
 </LinearLayout>
